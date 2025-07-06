@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WeTube</title>
+  <link rel="icon" href="icons/logo.png">
+  <!--font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Underdog&display=swap"
+    rel="stylesheet">
+  <!--css-->
+  <link rel="stylesheet" href="styles/video.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/sidebar.css">
+
+</head>
+
+<body>
+  <header class="header">
+
+    <div class="left-section">
+      <img src="icons/hamburger-menu.svg" class="hamburger-menu" alt="hamburger">
+      <img src="icons/wetube-logo.png" class="youtube-logo" alt="">
+    </div>
+
+
+    <div class="middle-section">
+      <input type="text" placeholder="Search" class="search-bar" />
+      <button class="search-btn">
+        <img src="icons/search.svg" class="search-icon" alt="">
+        <div class="tooltip">Search</div>
+      </button>
+      <button class="voice-search-btn">
+        <img src="icons/voice-search-icon.svg" class="voice-search-icon" alt="">
+        <div class="tooltip">Search with your voice</div>
+      </button>
+    </div>
+
+
+    <div class="right-section">
+      <div class="upload-icon-container">
+        <img src="icons/upload.svg" class="upload-icon">
+        <div class="tooltip">Create</div>
+      </div>
+      <div class="youtube-app-icon-container">
+        <img src="icons/youtube-apps.svg" class="youtube-app-icon">
+        <div class="tooltip">Youtube apps</div>
+      </div>
+
+      <div class="notifications-icon-container">
+        <img src="icons/notifications.svg" class="notifications-icon">
+        <div class="notifications-count">3</div>
+        <div class="tooltip">Youtube apps</div>
+      </div>
+      <img src="channel-picture/my-channel.jpg" class="current-user-picture">
+    </div>
+
+  </header>
+
+  <!--Side bar starts-->
+  <nav class="sidebar">
+    <div class="sidebar-link">
+      <img src="icons/home.svg" alt="">
+      <div>Home</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/explore.svg" alt="">
+      <div>Explore</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/subscriptions.svg" alt="">
+      <div>subscriptions</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/originals.svg" alt="">
+      <div>originals</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/youtube-music.svg" alt="">
+      <div>WT Music</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/library.svg" alt="">
+      <div>library</div>
+    </div>
+  </nav>
+  <!--Side bar ends-->
+
+  <main>
+    <section class="video-grid">
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://youtu.be/Gpf3IQjVEZk?si=Z0y975qMbA5_Iiht">
+            <img src="Thumbnail/thumbnail-1.webp" class="thumbnail" alt="tnfc" />
+            <div class="video-time">00:30</div>
+          </a>
+        </div>
+        <div class="video-info-grid">
+          <!--If you click channel picture it shows popup-->
+          <div class="channel-picture">
+            <img src="channel-picture/channel-1.jpeg" alt="channel pic" class="profile-picture">
+            <!--Channel info popup starts-->
+            <div class="channel-info-container">
+              <div class="channel-picture">
+                <img src="channel-picture/channel-1.jpeg" alt="sargin" class="profile-picture" />
+              </div>
+              <div class="channel-content">
+                <div class="channel-name">TN Freekzz Creation</div>
+                <div class="sub-count">1M subscribers</div>
+              </div>
+            </div>
+            <!--Channel info popup ends-->
+          </div>
+          <div class="video-info">
+            <p class="video-title">Unique status video | TNFC </p>
+            <p class="video-author">TN Freekzz Creation</p>
+            <p class="video-stats">1M views &#183; 3 years ago</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://youtu.be/PjcbFzU6q7o?si=4gI94GAHeuWu3Fl5">
+            <img src="Thumbnail/thumbnail-2.avif" class="thumbnail" alt="sarjin">
+            <div class="video-time">11:42</div>
+          </a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img src="channel-picture/channel-2.jpeg" alt="channel pic" class="profile-picture">
+            <!--Channel info popup starts-->
+            <div class="channel-info-container">
+              <div class="channel-picture">
+                <img src="channel-picture/channel-2.jpeg" alt="sargin" class="profile-picture" />
+              </div>
+              <div class="channel-content">
+                <div class="channel-name">Sarjin Vlogs</div>
+                <div class="sub-count">1M subscribers</div>
+              </div>
+            </div>
+            <!--Channel info popup ends-->
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Real Coffin unboxing and review </p>
+            <p class="video-author">Sarjin Vlogs</p>
+            <p class="video-stats">724K views &#183; 4 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://youtu.be/uY85hEVcr00?si=gPs_JBF9a_ykFvgX">
+            <img src="Thumbnail/thumbnail-3.avif" class="thumbnail" alt="Jennie">
+            <div class="video-time">07:36</div>
+          </a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img src="channel-picture/channel-3.jpeg" alt="channel pic" class="profile-picture">
+            <!--Channel info popup starts-->
+            <div class="channel-info-container">
+              <div class="channel-picture">
+                <img src="channel-picture/channel-3.jpeg" alt="sargin" class="profile-picture" />
+              </div>
+              <div class="channel-content">
+                <div class="channel-name">Jenny's Lectures CS IT</div>
+                <div class="sub-count">1.91M subscribers</div>
+              </div>
+            </div>
+            <!--Channel info popup ends-->
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Wake Up | AI Is Taking Over !</p>
+            <p class="video-author">Jenny's Lectures CS IT</p>
+            <p class="video-stats">7.2k views &#183; 1 day ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://youtu.be/Pn1u5fGQy-M?si=oYUNydwBBRuhQmP7">
+            <img src="Thumbnail/thumbnail-4.avif" class="thumbnail" alt="MG">
+            <div class="video-time">12:26</div>
+          </a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img src="channel-picture/channel-4.jpeg" alt="channel pic" class="profile-picture">
+            <!--Channel info popup starts-->
+            <div class="channel-info-container">
+              <div class="channel-picture">
+                <img src="channel-picture/channel-4.jpeg" alt="sargin" class="profile-picture" />
+              </div>
+              <div class="channel-content">
+                <div class="channel-name">Madan Gowri</div>
+                <div class="sub-count">8.24M subscribers</div>
+              </div>
+            </div>
+            <!--Channel info popup ends-->
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              World first AI Baby!</p>
+            <p class="video-author">Madan Gowri</p>
+            <p class="video-stats">498K views &#183; 2 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://youtu.be/L5oS1ESoHHs?si=Gdwhvv7_6eBRcalv">
+            <img src="Thumbnail/thumbnail-5.avif" class="thumbnail" alt="AE">
+            <div class="video-time">14:35</div>
+          </a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img src="channel-picture/channel-5.jpeg" alt="channel pic" class="profile-picture">
+            <!--Channel info popup starts-->
+            <div class="channel-info-container">
+              <div class="channel-picture">
+                <img src="channel-picture/channel-5.jpeg" alt="AE" class="profile-picture" />
+              </div>
+              <div class="channel-content">
+                <div class="channel-name">Almost Everything</div>
+                <div class="sub-count">1.75M subscribers</div>
+              </div>
+            </div>
+            <!--Channel info popup ends-->
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              5 Lessons to GET RICH without Getting Noticed
+              |almost everything</p>
+            <p class="video-author">Almost Everything</p>
+            <p class="video-stats">82k views &#183; 8 days ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row"><a href="https://youtu.be/t_8zbyPykgQ?si=uf7nAkZ94M5tN7uz">
+            <img src="Thumbnail/thumbnail-6.webp" class="thumbnail" alt="">
+            <div class="video-time">24:56</div>
+          </a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img src="channel-picture/channel-6.jpeg" alt="channel pic" class="profile-picture">
+            <!--Channel info popup starts-->
+            <div class="channel-info-container">
+              <div class="channel-picture">
+                <img src="channel-picture/channel-6.jpeg" alt="VJ Siththu vlogs" class="profile-picture" />
+              </div>
+              <div class="channel-content">
+                <div class="channel-name">VJ Siththu Vlogs</div>
+                <div class="sub-count">4.91M subscribers</div>
+              </div>
+            </div>
+            <!--Channel info popup ends-->
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Thala Diwali - Dress எடுத்து குடு நா✨😂 | Vj Siddhu Vlogs</p>
+            <p class="video-author">VJ Siththu Vlogs</p>
+            <p class="video-stats">19M views &#183; 4 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://youtu.be/EWgEDPDPT1k?si=bw84G-W60ivGNbET">
+            <img src="Thumbnail/thumbnail-7.webp" class="thumbnail" alt="">
+            <div class="video-time">46:56</div>
+          </a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img src="channel-picture/channel-7.jpeg" alt="channel pic" class="profile-picture">
+            <!--Channel info popup starts-->
+            <div class="channel-info-container">
+              <div class="channel-picture">
+                <img src="channel-picture/channel-7.jpeg" alt="Sid" class="profile-picture" />
+              </div>
+              <div class="channel-content">
+                <div class="channel-name">Sid</div>
+                <div class="sub-count">134K subscribers</div>
+              </div>
+            </div>
+            <!--Channel info popup ends-->
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              THE SID(e) EFFECT - A DECISION| Sid frequency</p>
+            <p class="video-author">Sid</p>
+            <p class="video-stats">1.6M views &#183; 4 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://youtu.be/mtBmBU1qoZs?si=v35oeQL12qxISW3V">
+            <img src="Thumbnail/thumbnail-8.avif" class="thumbnail" alt="">
+            <div class="video-time">04:49</div>
+          </a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img src="channel-picture/channel-8.jpeg" alt="channel pic" class="profile-picture">
+            <!--Channel info popup starts-->
+            <div class="channel-info-container">
+              <div class="channel-picture">
+                <img src="channel-picture/channel-8.jpeg" alt="VJ Siththu vlogs" class="profile-picture" />
+              </div>
+              <div class="channel-content">
+                <div class="channel-name">PASTOR DARWIN EBANEZER</div>
+                <div class="sub-count">295K subscribers</div>
+              </div>
+            </div>
+            <!--Channel info popup ends-->
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Kiruba Kiruba - Tamil Christian Song By Pr Darwin Ebenezer | Talent-la Onum-la</p>
+            <p class="video-author">PASTOR DARWIN EBANEZER</p>
+            <p class="video-stats">41M views &#183; 10 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://youtu.be/KgitTXUeN7g?si=Ont3LiIoyd2mgwGu">
+            <img src="Thumbnail/thumbnail-9.webp" class="thumbnail" alt="">
+            <div class="video-time">39:07</div>
+          </a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img src="channel-picture/channel-9.jpeg" alt="channel pic" class="profile-picture">
+            <!--Channel info popup starts-->
+            <div class="channel-info-container">
+              <div class="channel-picture">
+                <img src="channel-picture/channel-9.jpeg" alt="Brototype" class="profile-picture" />
+              </div>
+              <div class="channel-content">
+                <div class="channel-name">Brototype</div>
+                <div class="sub-count">147K subscribers</div>
+              </div>
+            </div>
+            <!--Channel info popup ends-->
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Part 1 | Introduction To Programming | C Programming Tamil Tutorial</p>
+            <p class="video-author">Brototype</p>
+            <p class="video-stats">147K views &#183; 2 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://youtu.be/gaT6bnurNFs?si=nmO-hamVd2M3O0Rr">
+            <img src="Thumbnail/thumbnail-10.webp" class="thumbnail" alt="">
+            <div class="video-time">02:56</div>
+          </a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img src="channel-picture/channel-10.jpeg" alt="channel pic" class="profile-picture">
+            <!--Channel info popup starts-->
+            <div class="channel-info-container">
+              <div class="channel-picture">
+                <img src="channel-picture/channel-10.jpeg" alt="GVMW" class="profile-picture" />
+              </div>
+              <div class="channel-content">
+                <div class="channel-name">GV MEDIAAWORKS</div>
+                <div class="sub-count">257K subscribers</div>
+              </div>
+            </div>
+            <!--Channel info popup ends-->
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Believe in You | A R Rahman | Motivational video | GV Mediaworks</p>
+            <p class="video-author">GV MEDIAAWORKS</p>
+            <p class="video-stats">5M views &#183; 4 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://youtu.be/VIBWdLLq9kQ?si=zedl4CUZW-F7TkGw">
+            <img src="Thumbnail/thumbnail-11.webp" class="thumbnail" alt="">
+            <div class="video-time">01:22:09</div>
+          </a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img src="channel-picture/channel-11.jpeg" alt="channel pic" class="profile-picture" />
+            <!--Channel info popup starts-->
+            <div class="channel-info-container">
+              <div class="channel-picture">
+                <img src="channel-picture/channel-11.jpeg" alt="EMC" class="profile-picture" />
+              </div>
+              <div class="channel-content">
+                <div class="channel-name">Error Makes Clever</div>
+                <div class="sub-count">1.05M subscribers</div>
+              </div>
+            </div>
+            <!--Channel info popup ends-->
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Git and GitHub Tutorial in Tamil | The Ultimate Guide to VC, Branching, Merging & Pull Request.</p>
+            <p class="video-author">
+              Error Makes Clever</p>
+            <p class="video-stats">941K views &#183; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row"><a href="https://youtu.be/YbCF6OqTWug?si=HhsnkPgFgu4UNyfg">
+            <img src="Thumbnail/thumbnail-12.webp" class="thumbnail" alt="">
+            <div class="video-time">04:00</div>
+          </a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img src="channel-picture/channel-12.jpeg" alt="channel pic" class="profile-picture">
+            <!--Channel info popup starts-->
+            <div class="channel-info-container">
+              <div class="channel-picture">
+                <img src="channel-picture/channel-12.jpeg" alt="sargin" class="profile-picture" />
+              </div>
+              <div class="channel-content">
+                <div class="channel-name">Saregama Tamil</div>
+                <div class="sub-count">9.69M subscribers</div>
+              </div>
+            </div>
+            <!--Channel info popup ends-->
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Muththa Mazhai - Chinmayi Performance | Thug Life | Kamal Haasan | Mani Ratnam | STR | AR Rahman</p>
+            <!--https://youtu.be/YbCF6OqTWug?si=HhsnkPgFgu4UNyfg-->
+            <p class="video-author">
+              Saregama Tamil
+            </p>
+            <p class="video-stats">55M views &#183; 1 month ago</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
